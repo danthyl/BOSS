@@ -24,6 +24,8 @@ data.columns = data.columns.str.replace(' +', '_', regex=True)
 
 # Initialize the Dash app
 app = Dash(__name__)
+server = app.server
+
 
 # App layout with Tabs
 app.layout = html.Div([
