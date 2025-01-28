@@ -7,8 +7,6 @@ Original file is located at
     https://colab.research.google.com/drive/167yQgi1Feoclo8Db8-EYF1xKSpBxzWPl
 """
 
-pip install dash plotly pandas openpyxl
-
 import plotly.express as px
 from dash import Dash, dcc, html, Input, Output
 import pandas as pd
